@@ -1,0 +1,96 @@
+body {
+    font-family: 'Josefin Slab';
+}
+
+.main {
+    width: 850px;
+    background-image: url("../images/mooning_@2X.png");
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    border: 1px solid black;
+    border-radius: 6px;
+    font-family: "Amatic SC";
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.4); 
+}
+
+.instructions {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 30px 20px 15px 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 20px;
+}
+
+.random, 
+.result {
+    display: inline-flexbox;
+    width: 200px;
+}
+
+.random, 
+.result,
+.p1 {
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 20px;
+}
+
+.p1 {
+    margin-left: 3px;
+    width: 200px;
+    padding-left: 10px;
+    justify-content: center;
+
+}
+
+.stones {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.imgStone {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+#totalStones {
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
